@@ -65,6 +65,12 @@ namespace WebApplication20.Controllers
  * the has leather seats checkbox should automatically become checked, as well as 
  * disabled, (since all supercars have leather seats).
  *
+ * Also, the submit button should be disabled when the page loads, and should only
+ * become enabled when each one of the fields get populated. To find if the select
+ * dropdown has a value, you can use the .val() function in jQuery on the select. 
+ * Also, to figure out if a select changed, you can do something like 
+ * $("#my-select").on('change', function() { ....
+ *
  * Finally, on the home page, in the header of the table - in the Year column, there should
  * be a link (styled like a button if you want) that when clicked, refreshes the page and
  * displays the cars sorted by year. This time, the button should have an arrow pointing
