@@ -48,9 +48,9 @@ namespace WebApplication20.Controllers
  * column where you show whether or not the car has leather seats, use an icon
  * either a check or x to make it more exciting :) Icons can be found here:
  * 
- *  https://useiconic.com/open/
+ *  https://icons.getbootstrap.com/
  * you'll need to add this link tag to your layout file:
- * <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+ * <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
  *
  * On top of the table, have a link that takes you to a page to add a new car.
  * On that form, have textboxes for make/model/year/price. Then, have a select for
